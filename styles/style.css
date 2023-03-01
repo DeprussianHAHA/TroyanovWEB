@@ -1,0 +1,375 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.cont {
+    max-width: 1152px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    height: 85px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 36px;
+    margin: 0 auto;
+}
+
+.li_hotcoffee>a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 257px 0 83px;
+}
+
+.li_search>a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+
+    margin-right: 186px;
+}
+
+.img_search {
+    margin-right: 12px;
+}
+
+.li>a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.cont_s1 {
+    background: #FBFBFB;
+    max-width: 1152px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.cont_texts_s1 {
+    padding-top: 131px;
+    padding-left: 127px;
+}
+
+.h1_s1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 47px;
+}
+
+.img_text_s1 {
+    width: 72px;
+    height: 72px;
+}
+
+.cont_text_s1 {
+    width: 354px;
+    height: 140px;
+}
+
+.p_text2_s1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #4A5568;
+}
+
+.cont_text2_s1 {
+    padding-top: 19px;
+    height: 36px;
+    width: 328px;
+}
+
+.cont_img_s1 {
+    padding-top: 70px;
+    padding-right: 93px;
+}
+
+.cont_s2 {
+    margin-top: 39px;
+    margin-left: 93px;
+    height: 243px;
+    width: 966px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 5px 4px rgba(221, 221, 221, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont_text_s2 {
+    height: 243px;
+    width: 529px;
+    text-align: left;
+}
+
+.h1_s2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2D3748;
+    margin-top: 42px;
+    margin-left: 54px;
+}
+
+.p_s2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+    height: 51px;
+    width: 403px;
+    left: 53px;
+    margin-top: 27px;
+    margin-left: 54px;
+}
+
+.cont_img_s2 {
+    height: 243px;
+    width: 434px;
+}
+
+.date_s2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #718096;
+    margin-top: 30px;
+    margin-left: 54px;
+}
+
+.readmore_s2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+    margin-left: 245px;
+}
+
+.cards {
+    margin-top: 43px;
+    margin-left: 93px;
+    margin-right: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+    width: 297px;
+    height: 382px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(192, 189, 189, 0.25);
+    border-radius: 5px;
+}
+
+.img_item {
+    width: 297px;
+    height: 179px;
+}
+
+.text_item {
+    margin-left: 17px;
+}
+
+.h1_item {
+    margin-top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3748;
+}
+
+.p_item {
+    margin-top: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #718096;
+    height: 85px;
+    width: 258px;
+
+}
+
+.date_item {
+    margin-top: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #718096;
+}
+
+.readmore_item {
+    margin-left: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2D3748;
+}
+
+.cont_s4 {
+    height: 500px;
+    width: 965px;
+    background: #F7FAFC;
+    margin-top: 43px;
+    margin-left: 94px;
+    display: flex;
+}
+
+.cont_text_s4 {
+    margin-top: 96px;
+    margin-left: 63px;
+    height: 500px;
+    width: 440px;
+}
+
+.cont_img_s4 {
+    height: 500px;
+    width: 525px;
+}
+
+.h1_s4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    height: 96px;
+    width: 308px;
+
+}
+
+.p_s4 {
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #718096;
+    height: 114px;
+    width: 311px;
+}
+
+.date_s4 {
+    margin-top: 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A5568;
+}
+
+.readmore_s4 {
+    margin-left: 171px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.btn_see_more {
+    margin-left: 939px;
+    margin-top: 40px;
+    background: #6B46C1;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 9px 15px;
+    border: none;
+}
+
+.cont_footer {
+    width: 1060px;
+    margin-top: 43px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2_footer {
+    margin-left: 89px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.sp_f {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.img_footer {
+    height: 19px;
+    width: 20px;
+    margin-right: 34px;
+}
+.img_footer:last-child {
+    margin-right: 0px;
+}
+
